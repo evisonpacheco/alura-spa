@@ -1,0 +1,29 @@
+@import '../abstract/variables';
+
+.banner {
+  align-items: center;
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 21.875rem;
+  opacity: 0.9;
+
+  .inner-banner {
+    background-color: $color-three;
+    border-radius: 3rem;
+    padding: 3rem;
+    text-align: center;
+    opacity: 0.9;
+
+    h1 {
+      color: $color-two;
+      font-size: $standard-font-size;
+    }
+
+    h2 {
+      color: $color-one;
+      font-size: $standard-font-size / 2 ;
+    }
+  }
+}
