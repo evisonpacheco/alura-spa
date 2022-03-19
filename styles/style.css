@@ -17,4 +17,8 @@ nav ul li a {
   font-weight: bold;
   color: #F0A500;
 }
+
+nav ul li a:hover {
+  border-bottom: 2px solid #E45826;
+}
 /*# sourceMappingURL=style.css.map */
