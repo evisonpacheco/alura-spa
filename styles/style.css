@@ -166,4 +166,17 @@ nav ul li a:hover {
   background-color: white;
   color: #E45826;
 }
+
+footer {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#F0A500), color-stop(#E45826), to(#E6D5B8));
+  background: linear-gradient(to right, #F0A500, #E45826, #E6D5B8);
+}
+
+footer i {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
