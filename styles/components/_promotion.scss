@@ -1,0 +1,54 @@
+@import '../abstract/variables';
+
+#promotion {
+  background-color: $color-three;
+  padding: 2rem;
+  text-align: center;
+
+  .promotion__text {
+    color: $color-two;
+
+    h2 {
+      font-size: $standard-font-size / 2;
+      margin: 0 2rem 2rem;
+    }
+  }
+
+  .form-container__input {
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    height: 1.5rem;
+    margin: 0.1rem auto;
+    outline: none;
+    text-align: center;
+    width: 50%;
+
+    &:hover, &:focus-within {
+      box-shadow: 1px 1px 5px $color-two;
+      outline: none;
+    }
+  }
+
+  .form-container__button {
+    background-color: $color-two;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2rem;
+    letter-spacing: 1px;
+    margin-top: 0.5rem;
+    outline: none;
+    text-align: center;
+    text-transform: capitalize;
+    width: 5rem;
+
+    &:hover {
+      background-color: white;
+      color: $color-two;
+    }
+  }
+}
