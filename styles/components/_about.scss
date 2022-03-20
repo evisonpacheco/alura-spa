@@ -1,0 +1,27 @@
+@import '../abstract/variables';
+
+#about {
+  text-align: center;
+
+  .about__image {
+    margin: 1rem 0;
+  }
+
+  .description__title {
+    color: $color-two;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .description__subtitle {
+    color: $color-one;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .description__text {
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
